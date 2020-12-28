@@ -1,0 +1,87 @@
+body{
+    /* margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    height: 700px;
+    background: -webkit-linear-gradient(left, rgba(128, 0, 128, 0.74),rgb(255, 192, 203));
+    height: 100vh;
+    margin-bottom: 50px;
+    background-image: url("../../assets/pic.jpg") ;
+
+    background-size: cover; */
+    background-size: cover; 
+    background-position: center;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    display: flex;
+    background: -webkit-linear-gradient(left, rgba(128, 0, 128, 0.74),rgb(255, 192, 203));
+    
+    
+
+}
+
+
+.sign-up-form{
+   position: center;
+   /* margin-bottom: 1000px; */
+    width: 500px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+     background:-webkit-linear-gradient(left, rgba(0, 60, 128, 0.74),rgb(192, 255, 239));
+    
+      padding: 20px;
+       margin: 8% auto 0;
+        text-align: center;
+       background-position: center;
+
+
+           /* margin-top: 50px;  */
+           height: 500px;
+
+
+}
+.sign-up-form h1{
+    color:black;
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border:1px solid #999;
+    outline: none;
+}
+button{
+    color:blue;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20Px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:palevioletred;
+}
+ button:hover{
+	background:peru;
+    opacity: 0,7;
+}
+a{
+    text-decoration: none;
+    color:red;
+}
+hr{
+    margin-top: 20px;
+    width:80%;
+}
+or{
+    background: #fff;
+    margin:-19;
+} 

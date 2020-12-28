@@ -1,0 +1,81 @@
+
+<body>
+    <div class="sign-up-form">
+        
+<h1>Registration</h1>
+
+ <div>
+
+
+<form (ngSubmit)='loginUser()' [formGroup]='loginForm'>
+
+    <input formControlName='fname'  class="input-box" type="text" placeholder="Enter Firstname" /><br> 
+    <div *ngIf="loginForm.get('fname').hasError('required') && loginForm.get('fname').touched"> 
+        FirstName is required
+    </div> 
+<!-- 
+    <div *ngIf="loginForm.get('fname').hasError('pattern')">
+      Firstname is invalid
+  </div> 
+  
+   <div *ngIf="loginForm.get('fname').valid">
+      Firstname is valid
+   </div> -->
+
+
+  <input formControlName='lname'  class="input-box"  type="text" placeholder="Enter LastName" /><br> 
+  <div *ngIf="loginForm.get('lname').hasError('required') && loginForm.get('lname').touched"> 
+      LastName is required
+  </div>
+   <!-- <div *ngIf="loginForm.get('lname').hasError('pattern')">
+      Lastname is invalid
+  </div> 
+  
+  
+   <div *ngIf="loginForm.get('lname').valid">
+      Lastname is valid
+   </div> -->
+
+
+   <input formControlName='email'  class="input-box" type="text" placeholder="Enter Email" /><br> 
+    <div *ngIf="loginForm.get('email').hasError('required') && loginForm.get('email').touched"> 
+         Email is required
+</div>
+
+
+<!-- <div *ngIf="loginForm.get('email').hasError('pattern')">
+Email is invalid
+</div> 
+
+
+<div *ngIf="loginForm.get('email').valid">
+Email is valid
+</div> -->
+
+
+<input formControlName='password' class="input-box"  type="text" placeholder="Enter Password" /><br>
+<div *ngIf="loginForm.get('password').hasError('required') && loginForm.get('password').touched"> 
+Password is required
+</div>
+
+  <!-- <div *ngIf="loginForm.get('password').hasError('maxLength')">
+      max 8 characters
+  </div>
+  <div *ngIf="loginForm.get('password').hasError('pattern')">
+      Password is weak
+  </div>
+
+<div *ngIf="loginForm.get('password').valid">
+Password is strong
+
+</div> -->
+<p><span><input type="checkbox"></span> agree with this terms of services</p>
+
+<button [disabled]="loginForm.invalid" class="button" value="Login">Registration</button>
+
+</form>
+</div>
+
+</div>
+
+</body> 
