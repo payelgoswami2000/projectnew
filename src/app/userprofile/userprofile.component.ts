@@ -8,13 +8,13 @@ import { SessionService } from '../session.service';
   styleUrls: ['./userprofile.component.css']
 })
 export class UserprofileComponent implements OnInit {
-  
-  useprofile:any;
 
-  constructor(private router:Router,private strseivice:SessionService) { }
+  useprofile: any;
+
+  constructor(private router: Router, private strseivice: SessionService) { }
 
   ngOnInit(): void {
-    this.useprofile=this.strseivice.getAllData();
+    this.useprofile = this.strseivice.getAllData();
     console.log(this.useprofile);
   }
 
