@@ -92,7 +92,15 @@ Address is valid
       </form>
   
   </div> -->
-<body>  <div class="sidebar">
+  
+
+
+
+
+
+<!--   
+
+   <div class="sidebar">
     <a class="active" href="#home">Home</a>
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
@@ -103,5 +111,25 @@ Address is valid
   <div class="content">
     ..
   </div>
-</body>
+
+   -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" routerLink="registration">Registration</a>
+          <a class="nav-link active" routerLink="login">Login</a>
+          <a class="nav-link active" routerLink="ddboard">Dahboard</a>
+          
+           <button type="button" class="btn btn-success" (click)="clickme()">LOG OUT</button>
+           <button type="button" class="btn btn-danger">LOGIN</button>
   
+  
+        </div>
+      </div>
+    </div>
+  </nav>

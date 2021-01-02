@@ -10,8 +10,8 @@ import { SessionService } from './session.service';
 export class AppComponent {
   title = 'httpreq';
   constructor(private router:Router,private strseivice:SessionService){}
-  clickme(){
-    this.strseivice.removeStroage();
-   this.router.navigate(['/login'])
-  }
+  // clickme(){
+  //   this.strseivice.removeStroage();
+  //  this.router.navigate(['/login'])
+  // }
 }

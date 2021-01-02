@@ -140,4 +140,19 @@ body{
       float: none;
     }
   }
-  
+  .bg-light{
+    background-color: rgba(165, 42, 42, 0.637) !important;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    margin-left: 800px;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    /* margin-left: 850px; */
+
+}

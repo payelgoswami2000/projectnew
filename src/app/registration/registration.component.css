@@ -85,3 +85,7 @@ or{
     background: #fff;
     margin:-19;
 } 
+::placeholder
+{
+	color:black; 
+}
